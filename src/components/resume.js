@@ -53,24 +53,26 @@ export default class Resume extends React.Component {
   }
 
   handleClick (e) {
-    const name = e.target.innerHTML.toLowerCase();
-    let newState = {
-        study: false,
-        work: false,
-        write: false,
-        teach: false,
-        curate: false,
-        show: false,
-        workshop: false,
-        speak: false
-      };
-    if (this.state[name] === true) {
-      newState[name] = false
-    } else {
-      newState[name] = true
-    }
+    if (window.innerWidth < 700) {
+      const name = e.target.innerHTML.toLowerCase();
+      let newState = {
+          study: false,
+          work: false,
+          write: false,
+          teach: false,
+          curate: false,
+          show: false,
+          workshop: false,
+          speak: false
+        };
+      if (this.state[name] === true) {
+        newState[name] = false
+      } else {
+        newState[name] = true
+      }
 
-    this.setState(newState);
+      this.setState(newState);
+    }  
   }
 
   render() {
