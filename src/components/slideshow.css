@@ -1,0 +1,21 @@
+.slideshow {
+  cursor: e-resize;
+  width: 50%;
+}
+
+.slideshow-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid black;
+}
+
+.slideshow img {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .slideshow {
+    width: 100%;
+  }
+}

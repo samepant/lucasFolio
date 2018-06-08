@@ -1,0 +1,57 @@
+@font-face {
+  font-family: grtx;
+  src: url('/grtx.otf') format('opentype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: grtx;
+}
+
+.header {
+  padding: 2em 2em 0 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.contact {
+  text-align: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+span {
+  line-height: 1.2;
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  border-top: 2px solid black;
+}
+
+.topButton {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  span {
+    font-size: 19px;
+  }
+}
+
