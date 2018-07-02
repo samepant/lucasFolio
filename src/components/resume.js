@@ -171,7 +171,7 @@ export default class Resume extends React.Component {
             <p onClick={this.handleClick}>TEACH</p>
             <Collapse isOpened={this.state.teach}>
               <div>
-                <p> Adjunct Professor at Lawrence Technological University</p>
+                <p> Adjunct Professor at Lawrence Tech University</p>
                 <p>2017 | Southfield, MI</p>
               </div>
               <div>
