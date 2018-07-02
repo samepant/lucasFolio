@@ -14,6 +14,8 @@ class App extends Component {
         </div>
         <Resume />
         <div className='slideshow-container'>
+          <Slideshow images={imageSlides.painting} />
+          <Slideshow images={imageSlides.space} />
           <Slideshow images={imageSlides.alberte} />
           <Slideshow images={imageSlides.anything} />
           <Slideshow images={imageSlides.kur} />
@@ -24,14 +26,13 @@ class App extends Component {
           <Slideshow images={imageSlides.wright2} />
           <Slideshow images={imageSlides.wright} />
           <Slideshow images={imageSlides.snakes} />
-          <Slideshow images={imageSlides.painting} />
-          <Slideshow images={imageSlides.space} />
-          <Slideshow images={imageSlides.emily} />
-          <Slideshow images={imageSlides.makesthing} />
           <Slideshow images={imageSlides.work} />
           <Slideshow images={imageSlides.owens} />
-          <Slideshow images={imageSlides.pinter} />
-          <Slideshow images={imageSlides.relationship} />
+          <Slideshow images={imageSlides.emily} />
+          <Slideshow images={imageSlides.austin} />
+          <Slideshow images={imageSlides.wright3} />
+          <Slideshow images={imageSlides.makesthing} />
+
 
 
 
@@ -58,9 +59,11 @@ const imageSlides = {
   jing: ['jing1.jpg','jing2.jpg','jing3.jpg','jing4.jpg','jing5.jpg','jing6.jpg','jing7.jpg','jing8.jpg','jing9.jpg','jing10.jpg','jing11.jpg','jing12.jpg','jing13.jpg','jing14.jpg','jing15.jpg','jing16.jpg','jing17.jpg','jing18.jpg','jing19.jpg','jing20.jpg','jing21.jpg','jing22.jpg'],
   wright: ['wright1.jpg','wright2.jpg','wright3.jpg','wright4.jpg','wright5.jpg','wright6.jpg','wright7.jpg','wright8.jpg','wright9.jpg','wright10.jpg','wright0.jpg'],
   wright2: ['wright12.jpg','wright13.jpg','wright14.jpg','wright15.jpg','wright16.jpg','wright17.jpg','wright18.jpg','wright19.jpg','wright20.jpg','wright21.jpg'],
+  wright3: ['wright11.gif'],
   owens: ['owens1.gif'],
   snakes: ['snakes.gif'],
   makesthing: ['makesthing.jpg','makesthing1.jpg,'],
+  austin: ['Austin0.jpg','Austin1.jpg','Austin2.jpg','Austin3.jpg','Austin4.jpg','Austin5.jpg','Austin6.jpg',],
   pinter: ['pinter0.jpg','pinter1.jpg','pinter2.jpg','pinter3.jpg','pinter4.jpg','pinter5.jpg','pinter6.jpg','pinter7.jpg','pinter8.jpg','pinter9.jpg'],
   relationship: ['relationship1.jpg','relationship0.gif','relationship2.jpg']
 };
