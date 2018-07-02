@@ -103,36 +103,40 @@ export default class Resume extends React.Component {
           <div className='topic'>
             <p onClick={this.handleClick}>WORK</p>
             <Collapse isOpened={this.state.work}>
+            <div>
+                <p> Freelance Graphic Designer and Art Director</p>
+              <p>2018 | Brooklyn, NY</p>
+            </div>
               <div>
                 <p>Department Assistant for 2D Department at CAA</p>
-                <p>2012–2018 | Bloomfield Hills, MI</p>
+                <p>2017–2018 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> Freelance Graphic Designer</p>
-                <p>2018 | Bloomfield Hills, MI</p>
+                <p>Freelance Graphic Designer and Art Director</p>
+                <p>2017 | San Francisco, CA</p>
               </div>
               <div>
-                <p> Graphic Designer at Wright Auction</p>
-                <p>2012–2016 | Chicago, IL</p>
+                <p>Graphic Designer at Wright Auction</p>
+                <p>2013–2016 | Chicago, IL</p>
               </div>
               <div>
-                <p> Design Intern at Faust</p>
+                <p>Design Intern at Faust</p>
                 <p>2013 | Chicago, IL</p>
               </div>
               <div>
-                <p> Design Intern at Torque</p>
+                <p>Design Intern at Torque</p>
                 <p>2013 | Chicago, IL</p>
               </div>
               <div>
-                <p> Design Director at Smith Enterprises</p>
+                <p>Design Director at Smith Enterprises</p>
                 <p>2012–2013 | Champaign, IL</p>
               </div>
               <div>
-                <p> Design and Operations Intern at Fresh Press</p>
+                <p>Design and Operations Intern at Fresh Press</p>
                 <p>2012–2013 | Champaign, IL</p>
               </div>
               <div>
-                <p> Instructional Designer at OCE-UIUC</p>
+                <p>Instructional Designer at OCE-UIUC</p>
                 <p>2012 | Champaign, IL</p>
               </div>
             </Collapse>
@@ -143,7 +147,7 @@ export default class Resume extends React.Component {
             <Collapse isOpened={this.state.write}>
               <div>
                 <p> The School that Makes the School for Grand Circus</p>
-                <p>   fifth issue, 2018</p>
+                <p>fifth issue, 2018</p>
               </div>
             </Collapse>
           </div>
@@ -156,7 +160,7 @@ export default class Resume extends React.Component {
                 <p>2018 | New York, NY</p>
               </div>
               <div>
-                <p> AIGA’s Fresh Grads</p>
+                <p>AIGA’s Fresh Grads</p>
                 <p>2018 | New York, NY</p>
               </div>
             </Collapse>
@@ -186,15 +190,15 @@ export default class Resume extends React.Component {
             <Collapse isOpened={this.state.curate}>
               <div>
                 <p> Snakes Tie Themselves Into Knots To Aid in Shedding Their&nbsp;Skin</p>
-                <p>2018 | Bloomfield Hills</p>
+                <p>2018 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> Snake With No Name</p>
-                <p>   2018 | Bloomfield Hills</p>
+                <p>Snake With No Name</p>
+                <p>2018 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> TOYOYOYOTA GALLERY</p>
-                <p>   2017 | Bloomfield Hills</p>
+                <p>TOYOYOYOTA GALLERY</p>
+                <p>2017 | Bloomfield Hills, MI</p>
               </div>
             </Collapse>
           </div>
@@ -203,28 +207,28 @@ export default class Resume extends React.Component {
             <p onClick={this.handleClick}>SHOW</p>
             <Collapse isOpened={this.state.show}>
               <div>
-                <p> Thesis at Cranbrook Academy of Art</p>
-                <p>   2018 | Bloomfield Hills</p>
+                <p>Thesis at Cranbrook Academy of Art</p>
+                <p>2018 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> STA 100</p>
-                <p>   2017 | Chicago, IL</p>
+                <p>STA 100</p>
+                <p>2017 | Chicago, IL</p>
               </div>
               <div>
-                <p> Remedies at Forum Gallery</p>
-                <p> 2017 | Bloomfield Hills, MI</p>
+                <p>Remedies at Forum Gallery</p>
+                <p>2017 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> CHGO DSGN at Expo Chicago</p>
-                <p> 2014 | Chicago, IL</p>
+                <p>CHGO DSGN at Expo Chicago</p>
+                <p>2014 | Chicago, IL</p>
               </div>
               <div>
-                <p> CHGO DSGN at Chicago Cultural Center</p>
-                <p> 2014 | Chicago, IL</p>
+                <p>CHGO DSGN at Chicago Cultural Center</p>
+                <p>2014 | Chicago, IL</p>
               </div>
               <div>
-                <p> CU & ME at Figure One Gallery</p>
-                <p> 2012 | Champaign, IL</p>
+                <p>CU & ME at Figure One Gallery</p>
+                <p>2012 | Champaign, IL</p>
               </div>
             </Collapse>
           </div>
@@ -233,20 +237,20 @@ export default class Resume extends React.Component {
             <p onClick={this.handleClick}>WORKSHOP</p>
             <Collapse isOpened={this.state.workshop}>
               <div>
-                <p> SpaceSpaceSpace (organizer)</p>
-                <p> 2018 | Bloomfield Hills, MI</p>
+                <p>SpaceSpaceSpace (organizer)</p>
+                <p>2018 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> We Want a Relationship (organizer)</p>
-                <p> 2017 | Bloomfield Hills, MI</p>
+                <p>We Want a Relationship (organizer)</p>
+                <p>2017 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> (b)art History /Bart de Baets Workshop</p>
-                <p> 2018 | Bloomfield Hills, MI</p>
+                <p>(b)art History /Bart de Baets Workshop</p>
+                <p>2018 | Bloomfield Hills, MI</p>
               </div>
               <div>
-                <p> N + D + M / Yale Workshop</p>
-                <p> 2012 | Champaign, IL</p>
+                <p>N+D+M / Yale Workshop</p>
+                <p>2012 | Champaign, IL</p>
               </div>
             </Collapse>
           </div>
