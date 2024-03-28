@@ -13,30 +13,6 @@ class App extends Component {
           <span className='contact'><a href='mailto:albrech2@gmail.com'>CONTACT</a></span>
         </div>
         <Resume />
-        <div className='slideshow-container'>
-          <Slideshow images={imageSlides.painting} />
-          <Slideshow images={imageSlides.space} />
-          <Slideshow images={imageSlides.alberte} />
-          <Slideshow images={imageSlides.anything} />
-          <Slideshow images={imageSlides.kur} />
-          <Slideshow images={imageSlides.jing} />
-          <Slideshow images={imageSlides.sb} />
-          <Slideshow images={imageSlides.stepBrother} />
-          <Slideshow images={imageSlides.toyota} />
-          <Slideshow images={imageSlides.wright2} />
-          <Slideshow images={imageSlides.wright} />
-          <Slideshow images={imageSlides.snakes} />
-          <Slideshow images={imageSlides.work} />
-          <Slideshow images={imageSlides.owens} />
-          <Slideshow images={imageSlides.emily} />
-          <Slideshow images={imageSlides.austin} />
-          <Slideshow images={imageSlides.wright3} />
-          <Slideshow images={imageSlides.makesthing} />
-
-
-
-
-        </div>
         <Footer />
       </div>
     );
